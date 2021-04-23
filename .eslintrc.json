@@ -32,6 +32,10 @@
         "react/destructuring-assignment": "off",
         "camelcase": "off",
         "arrow-parens": "off",
-        "arrow-body-style": "off"
+        "arrow-body-style": "off",
+        "control-has-associated-label": "off", //Doesnt work, control disabled in the index.tsx file
+        "anchor-is-valid": "off", //Doesnt work, control disabled in the index.tsx file
+        "no-danger": "off", //Doesnt work, control disabled in the index.tsx file
+        "max-len": "off"
     }
 }
