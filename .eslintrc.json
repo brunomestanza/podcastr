@@ -24,6 +24,7 @@
         "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }],
         "react/jsx-props-no-spreading": "off",
         "react/prop-types": "off",
+        "react/jsx-curly-brace-presence": "off",
         "object-curly-newline": "off",
         "no-use-before-define": "off",
         "import/prefer-default-export": "off",
@@ -36,6 +37,10 @@
         "control-has-associated-label": "off", //Doesnt work, control disabled in the index.tsx file
         "anchor-is-valid": "off", //Doesnt work, control disabled in the index.tsx file
         "no-danger": "off", //Doesnt work, control disabled in the index.tsx file
-        "max-len": "off"
+        "max-len": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "jsx-a11y/media-has-caption": "off",
+        "no-unused-vars": "off",
+        "no-useless-return": "off"
     }
 }

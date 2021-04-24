@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/control-has-associated-label */
-import React from 'react';
+import React, { useContext } from 'react';
 import { GetStaticProps } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,6 +9,7 @@ import ptBR from 'date-fns/locale/pt-BR';
 import { api } from '../services/api';
 import { convertDurationToTimeString } from '../utils/convertDurationToTimeString';
 import styles from './home.module.scss';
+import { PlayerContext } from '../contexts/PlayerContext';
 
 type Episode = {
   id: string,
@@ -16,7 +17,7 @@ type Episode = {
   thumbnail: string,
   members: string,
   publishedAt: string,
-  duration: Number,
+  duration: number,
   durationAsString: string,
   url: string,
 }
@@ -27,6 +28,7 @@ type HomeProps = {
 }
 
 export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
+  const { play } = useContext(PlayerContext);
   return (
     <div className={styles.homepage}>
       <section className={styles.latestEpisodes}>
@@ -44,7 +46,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                   <span>{episode.publishedAt}</span>
                   <span>{episode.durationAsString}</span>
                 </div>
-                <button type="button">
+                <button type="button" onClick={() => play(episode)}>
                   <img src="/play-green.svg" alt="Tocar Podcast" />
                 </button>
               </li>
