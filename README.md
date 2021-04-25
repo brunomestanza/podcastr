@@ -8,12 +8,12 @@
 	🚧  Podcastr 🚀 Features em producao...  🚧
 </h4>
 
-<img width=30% src="https://github.com/brunomestanza/podcastr/tree/main/public/homepage.PNG" alt="Logo" />
+<img src="https://github.com/brunomestanza/podcastr/blob/main/assets/homepage.PNG" alt="Homepage" />
 
 ### Sobre
 Projeto desenvolvido durante a #NLW5 para estudo e aprofundamento sobre ReactJS, NextJS, entre varios outros conteudos, e ja possui planejamento para futuros updates. O projeto realiza as funções de aleatoriedade, episódio anterior, tocar episódio, proximo episódio, e repetir episódio em lista predefinida de episódios.
 
-<img width=30% src="https://github.com/brunomestanza/podcastr/tree/main/public/podcast.PNG" alt="Logo" />
+<img src="https://github.com/brunomestanza/podcastr/blob/main/assets/podcast.PNG" alt="Playing Episode" />
 
 ### Pré-requisitos
 
