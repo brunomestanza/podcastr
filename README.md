@@ -31,6 +31,11 @@ $ yarn add ou npm install
 $ yarn dev ou npm run dev
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+
+# Execute a o servidor local para desenvolvimento
+$ yarn server ou npm run server
+
+# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
 
 ### 🛠 Tecnologias
