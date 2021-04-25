@@ -1,16 +1,19 @@
 ![Badge Next](https://img.shields.io/static/v1?label=NextJS&message=10.0.7&color=7159c1&style=for-the-badge&logo=React)
-![Badge Vercel](https://img.shields.io/static/v1?label=Deploy&message=Vercel&color=7159c1&style=for-the-badge&logo=Vercel)
 [![Licenca](https://img.shields.io/static/v1?label=License&message=MIT&color=7159c1&style=for-the-badge&logo=mit)](https://github.com/brunomestanza/podcastr/blob/main/LICENSE)
 <br>
-![Logo](https://github.com/brunomestanza/podcastr/blob/main/public/logo.svg)
+<img width=30% src="https://github.com/brunomestanza/podcastr/blob/main/public/logo.svg" alt="Logo" />
+<br>
 ### Projeto feito para exibição de podcast e episódios, que possui a função de player e também uma playlist.
 <h4 align="center"> 
 	🚧  Podcastr 🚀 Features em producao...  🚧
 </h4>
 
+<img width=30% src="https://github.com/brunomestanza/podcastr/tree/main/public/homepage.PNG" alt="Logo" />
+
 ### Sobre
-Projeto desenvolvido durante a #NLW5 para estudo e aprofundamento sobre ReactJS, NextJS, entre varios outros conteudos.
-O [move.it](https://podcastr-mestanza.vercel.app) foi hospedado na Vercel, e ja possui planejamento para futuros updates.
+Projeto desenvolvido durante a #NLW5 para estudo e aprofundamento sobre ReactJS, NextJS, entre varios outros conteudos, e ja possui planejamento para futuros updates. O projeto realiza as funções de aleatoriedade, episódio anterior, tocar episódio, proximo episódio, e repetir episódio em lista predefinida de episódios.
+
+<img width=30% src="https://github.com/brunomestanza/podcastr/tree/main/public/podcast.PNG" alt="Logo" />
 
 ### Pré-requisitos
 
